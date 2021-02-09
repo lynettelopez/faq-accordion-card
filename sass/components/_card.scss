@@ -1,0 +1,36 @@
+.card {
+  width: 20.438rem;
+  height: 33.438rem;
+  margin: 9.25rem auto 0;
+  border-radius: 23px;
+  background-color: $white;
+  position: relative;
+
+  &__graphic {
+    width: 15rem;
+    margin: 0 auto;
+  }
+
+  &__box {
+    display: none;
+  }
+
+  &__main {
+    position: absolute;
+    top: -6.724rem;
+    left: 1rem;
+  }
+
+  &__shadow {
+    // insert desktop view edits
+  }
+
+  &__information {
+    width: 17.438rem;
+    // maybe add a height and overflow hidden later
+    margin: 1.75rem auto 0;
+  }
+
+  &__title {
+  }
+}

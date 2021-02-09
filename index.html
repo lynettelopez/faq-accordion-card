@@ -7,27 +7,55 @@
   <meta name="description" content="Coded by Lynette Lopez">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <title>FAQ Accordion Card | Frontend Mentor</title>
 </head>
 
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on
-  team members for the Premium plan.
+  <main class="card">
+    <section class="card__graphic">
+      <img class="card__box" src="./img/illustration-box-desktop.svg" alt="Orange box with black @ symbol on side" />
+      <picture class="card__main">
+        <source srcset="./img/illustration-woman-online-desktop.svg" media="(min-width: 800px)" />
+        <img src="./img/illustration-woman-online-mobile.svg" alt="Illustration of woman using a desktop">
+      </picture>
+      <picture class="card__shadow">
+        <source srcset="./img/bg-pattern-desktop.svg" media="(min-width: 800px)" />
+        <img src="./img/bg-pattern-mobile.svg" alt="Square-shaped shadow">
+      </picture>
+    </section>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+    <section class="card__information">
+      <h1 class="card__title">FAQ</h1>
+      <div class="card__question">How many team members can I invite?
+        <img src="./img/icon-arrow-down.svg" alt="Downward-pointing carrot arrow" class="arrow-icon" />
+        <div class="card__answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.</div>
+      </div>
+      <div class="card__question">What is the maximum file upload size?
+        <img src="./img/icon-arrow-down.svg" alt="Downward-pointing carrot arrow" class="arrow-icon" />
+        <div class="card__answer">No more than 2GB. All files in your account must fit your allotted storage space.
+        </div>
+      </div>
+      <div class="card__question">How do I reset my password?
+        <img src="./img/icon-arrow-down.svg" alt="Downward-pointing carrot arrow" class="arrow-icon" />
+        <div class="card__answer">Click “Forgot password” from the login page or “Change password” from your profile
+          page. A reset link will be emailed to you.</div>
+      </div>
+      <div class="card__question">Can I cancel my subscription?
+        <img src="./img/icon-arrow-down.svg" alt="Downward-pointing carrot arrow" class="arrow-icon" />
+        <div class="card__answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
+      </div>
+      <div class="card__question">Do you provide additional support?
+        <img src="./img/icon-arrow-down.svg" alt="Downward-pointing carrot arrow" class="arrow-icon" />
+        <div class="card__answer">Chat and email support is available 24/7. Phone lines are open during normal business
+          hours.</div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
