@@ -95,24 +95,24 @@ input:checked + .card__question {
   margin: 9.25rem auto 0;
   border-radius: 23px;
   background-color: #fff;
-  box-shadow: 0 3.125rem 3.125rem -1.25rem rgba(53, 18, 122, 0.497159);
-  position: relative; }
-  .card__graphic {
-    width: 15rem;
-    margin: 0 auto; }
-  .card__box {
-    display: none; }
-  .card__main {
-    position: absolute;
-    top: -6.724rem;
-    left: 1rem; }
+  box-shadow: 0 3.125rem 3.125rem -1.25rem rgba(53, 18, 122, 0.497159); }
+  .card::before {
+    content: "";
+    display: inline-block;
+    width: 16.75rem;
+    height: 13.25rem;
+    background-image: url(../../img/illustration-woman-online-mobile.svg), url(../../img/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, top 6.75rem left 1.75rem;
+    position: relative;
+    top: -6.75rem;
+    left: 0.75rem; }
   .card__information {
     width: 17.438rem;
-    margin: 1.75rem auto 0; }
+    margin: -5.2rem auto 0; }
   .card__title {
     margin-bottom: 2.375rem; }
   .card__segment {
-    width: 100%;
     border-bottom: 1px solid #e8e8ea; }
     .card__segment:not(:last-child) {
       margin-bottom: 1rem; }
